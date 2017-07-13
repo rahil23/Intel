@@ -1,0 +1,10 @@
+package map;
+
+public class TestStudentHashMap {
+	
+	public static void main(String[] args) {
+		StudentPojo stu1 = new StudentPojo(1,"rahil","Kumar");
+		
+	}
+
+}

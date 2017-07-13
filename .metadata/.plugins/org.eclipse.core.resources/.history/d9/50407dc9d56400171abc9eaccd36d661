@@ -1,0 +1,22 @@
+package set;
+
+import java.util.TreeSet;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class TreeSetExample {
+	
+	public static void main(String[] args) {
+		TreeSet<String> obj = new TreeSet<String>();
+		obj.add("AA");
+		obj.add("aa");
+		obj.add("AA");
+		obj.add("AB");
+		obj.add("ABC");
+		System.out.println(obj);
+		
+		Iterator<String> it = obj.iterator();
+		
+	}
+
+}

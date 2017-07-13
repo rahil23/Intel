@@ -1,0 +1,22 @@
+package map;
+
+import java.util.HashMap;
+
+public class StudentPojo {
+
+	int rollno;
+	String FName,Lname;
+	
+	StudentPojo(int rollno , String Fname , String Lname)
+	{
+		this.rollno=rollno;
+		this.FName = Fname;
+		this.Lname=Lname;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}

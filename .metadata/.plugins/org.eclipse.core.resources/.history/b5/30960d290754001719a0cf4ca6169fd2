@@ -1,0 +1,54 @@
+package Synchronized;
+
+
+
+public class NonSync {
+	public static void main(String[] args) throws InterruptedException {
+		MainThread obj = new MainThread();
+		MainThread obj2 = new MainThread();
+		Normal a1 = new Normal();
+		obj.seta1(a1);
+		obj2.seta1(a1);
+		obj.start();
+		obj2.start();
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println("main thread");
+
+		}
+	}
+
+}
+
+class MainThread extends Thread {
+	Normal a1;
+	public void seta1(Normal a1){
+		this.a1=a1;
+	}
+
+	@Override
+	public void run() {
+
+		try {
+			a1.m1();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}
+
+
+class Normal  {
+
+
+	public void m1() throws InterruptedException {
+
+		for (int i = 0; i < 5; i++) {
+			Thread.sleep(1000);
+			System.out.println("m1 Method"+Thread.currentThread());
+		}
+	}
+
+}

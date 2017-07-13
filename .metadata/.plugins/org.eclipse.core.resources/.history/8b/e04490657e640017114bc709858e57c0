@@ -1,0 +1,34 @@
+
+public class Server {
+
+	private String serverName;
+	private  String software;
+	private String subsoft;
+	private String subversion;
+	public String getSoftware() {
+		return software;
+	}
+	public void setSoftware(String software) {
+		this.software = software;
+	}
+	public String getSubsoft() {
+		return subsoft;
+	}
+	public void setSubsoft(String subsoft) {
+		this.subsoft = subsoft;
+	}
+	public String getSubversion() {
+		return subversion;
+	}
+	public void setSubversion(String subversion) {
+		this.subversion = subversion;
+	}
+	public Server(String software, String subsoft, String subversion) {
+		super();
+		this.software = software;
+		this.subsoft = subsoft;
+		this.subversion = subversion;
+	}
+	
+	
+}

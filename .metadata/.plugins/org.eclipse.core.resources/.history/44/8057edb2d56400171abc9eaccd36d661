@@ -1,0 +1,17 @@
+package set;
+
+import java.util.TreeSet;
+
+public class TreeSetExample {
+	
+	public static void main(String[] args) {
+		TreeSet<String> obj = new TreeSet<String>();
+		obj.add("AA");
+		obj.add("aa");
+		obj.add("AA");
+		obj.add("AB");
+		obj.add("ABC");
+		System.out.println(obj);
+	}
+
+}

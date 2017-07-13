@@ -1,0 +1,27 @@
+package Rough;
+
+import java.util.Arrays;
+
+public class Rough
+{
+public static void main(String[] args) {
+	String s1 = "Rahil";
+	String s2 = "ahilr";
+	
+	char c1[] = s1.replaceAll("['//s']","").toLowerCase().toCharArray();
+	char c2[] = s2.replaceAll("['//s']", "").toLowerCase().toCharArray();
+	
+	Arrays.sort(c1);
+	Arrays.sort(c2);
+	
+	if(Arrays.equals(c1, c2))
+	{
+		System.out.println("it's an anagram");
+	}
+	else
+	{
+		System.out.println("not anagram");
+	}
+}
+	
+}
