@@ -1,0 +1,12 @@
+<suite name = "Hellotest">
+<parameter name = "searchkey" value="India">
+<testname = "testGuru">
+<classes>
+
+<class name="Parameters.ParameterBasic">
+</class>
+</classes>
+</testname>
+</parameter>
+
+</suite>

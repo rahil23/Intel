@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGGroups-DataProvider" duration-ms="79270" started-at="2017-07-29T12:31:34Z" finished-at="2017-07-29T12:32:53Z">
+    <groups>
+      <group name="A">
+        <method signature="GroupLevelDataProvider.method1(java.lang.String)[pri:0, instance:DataProvider.GroupLevelDataProvider@7921b0a2]" name="method1" class="DataProvider.GroupLevelDataProvider"/>
+      </group> <!-- A -->
+    </groups>
+    <test name="TestName" duration-ms="79270" started-at="2017-07-29T12:31:34Z" finished-at="2017-07-29T12:32:53Z">
+      <class name="DataProvider.GroupLevelDataProvider">
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:DataProvider.GroupLevelDataProvider@7921b0a2]" name="method1" duration-ms="18036" started-at="2017-07-29T18:01:34Z" data-provider="searchProvider" finished-at="2017-07-29T18:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:DataProvider.GroupLevelDataProvider@7921b0a2]" name="method1" duration-ms="41728" started-at="2017-07-29T18:01:52Z" data-provider="searchProvider" finished-at="2017-07-29T18:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Russia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:DataProvider.GroupLevelDataProvider@7921b0a2]" name="method1" duration-ms="19484" started-at="2017-07-29T18:02:34Z" data-provider="searchProvider" finished-at="2017-07-29T18:02:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- DataProvider.GroupLevelDataProvider -->
+    </test> <!-- TestName -->
+  </suite> <!-- TestNGGroups-DataProvider -->
+</testng-results>

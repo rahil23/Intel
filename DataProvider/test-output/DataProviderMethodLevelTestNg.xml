@@ -1,0 +1,11 @@
+<suite name = "methodlevelDataprovider">
+<test name = "methodlevelTestName">
+<classes>
+<class name = "DataProvider.MethodlevelDataProvider.method1">
+
+</class>
+</classes>
+</test>
+
+
+</suite>

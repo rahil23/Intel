@@ -1,0 +1,10 @@
+<suite name = "SampleDataProvider">
+<test name ="DataProviderTest">
+<classes>
+<class name = "DataProvider.SampleDataProvider">
+
+</class>
+</classes>
+
+</test>
+</suite>

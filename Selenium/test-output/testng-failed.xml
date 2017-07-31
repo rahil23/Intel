@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNG.SkipException">
+      <class name="DynamicTable.AllTableRowCol">
         <methods>
-          <include name="openURL"/>
+          <include name="getAllColRows"/>
         </methods>
-      </class> <!-- TestNG.SkipException -->
+      </class> <!-- DynamicTable.AllTableRowCol -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

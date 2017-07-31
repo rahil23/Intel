@@ -1,0 +1,23 @@
+package DynamicTable;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class DynamicRowCol {
+
+	WebDriver driver;
+	
+	@Test
+	public void m1()
+	{
+	driver = new FirefoxDriver();
+	driver.get("http://money.rediff.com/gainers/bse/daily");
+	
+	driver.findElement(By.xpath("//th[contains(text(), 'Company')]"));
+	List <WebElements> col = driver.findElements("//table[@class='dataTable']/thead/tr/th"));
+	
+	}
+	
+}

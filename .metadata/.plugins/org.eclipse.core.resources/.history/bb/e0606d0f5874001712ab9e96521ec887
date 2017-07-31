@@ -1,0 +1,25 @@
+<suite name = "TestNGGroups-DataProvider">
+<test name = "TestName">
+<groups>
+<run>
+
+<include name="A"/>
+
+</run>
+
+</groups>
+<classes>
+<class name = "DataProvider.GroupLevelDataProvider" />
+
+</classes>
+
+
+
+
+
+
+
+
+
+</test>
+</suite>

@@ -29,7 +29,7 @@ public class Compress {
 	}
 
 	
-	public void compressString2(String str) {
+	/*public void compressString2(String str) {
 
 		
 
@@ -91,13 +91,13 @@ public class Compress {
 
 		System.out.println(hm +" all are dublicate");
 	}
-
+*/
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 
 			Compress comp = new Compress();
 			String str = "abbaaabbcccad";
-			comp.compressString4(str);
+			comp.compressString(str);
 
 		}
 

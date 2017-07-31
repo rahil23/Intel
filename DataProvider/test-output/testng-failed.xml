@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleDataProvider]">
+  <test name="DataProviderTest(failed)">
+    <classes>
+      <class name="DataProvider.SampleDataProvider">
+        <methods>
+          <include name="wstart" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DataProvider.SampleDataProvider -->
+    </classes>
+  </test> <!-- DataProviderTest(failed) -->
+</suite> <!-- Failed suite [SampleDataProvider] -->

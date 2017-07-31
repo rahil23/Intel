@@ -9,8 +9,6 @@ public class TestStudentHashMap {
 		StudentPojo stu2 = new StudentPojo(2,"sahil","bathla");
 		StudentPojo stu3 = 	new StudentPojo(1,"rahil","Kumar");
 		
-			
-		
 		HashMap<StudentPojo,String> map=new HashMap<>(); 
 		
 		map.put(stu1, "A");
@@ -27,6 +25,7 @@ public class TestStudentHashMap {
 		System.out.println("stu1==stu3 "+(stu2==stu3));
 		
 		System.out.println("stu1 equals stu3 "+stu1.equals(stu3));
+		
 		System.out.println("stu2 equals stu3 "+stu2.equals(stu3));
 		
 		

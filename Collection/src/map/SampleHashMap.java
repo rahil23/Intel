@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class SampleHashMap {
 	public static void main(String[] args) {
+		
 		HashMap obj = new HashMap();
 		
 		obj.put(1, 'q');
@@ -18,6 +19,7 @@ public class SampleHashMap {
 		System.out.println(obj.isEmpty());
 		System.out.println(obj.remove(4));
 		System.out.println(obj.replace(3, "replaced"));
+	
 		//System.out.println(obj.get(3));
 		
 		System.out.println(obj);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hellotest]">
+  <parameter name="searchkey" value="India"/>
+  <test name="testGuru(failed)">
+    <classes>
+      <class name="Parameters.ParameterBasic">
+        <methods>
+          <include name="startW"/>
+        </methods>
+      </class> <!-- Parameters.ParameterBasic -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [Hellotest] -->

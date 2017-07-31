@@ -28,7 +28,7 @@ public class StudentPojo {
 
 
 
-/*	@Override
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -50,7 +50,7 @@ public class StudentPojo {
 		if (rollno != other.rollno)
 			return false;
 		return true;
-	}*/
+	}
 
 
 
