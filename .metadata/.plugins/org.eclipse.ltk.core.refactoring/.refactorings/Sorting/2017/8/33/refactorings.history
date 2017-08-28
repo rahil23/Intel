@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sort.rough2&apos; to &apos;SelectionAscending&apos;&#x0D;&#x0A;- Original project: &apos;Sorting&apos;&#x0D;&#x0A;- Original element: &apos;sort.rough2&apos;&#x0D;&#x0A;- Renamed element: &apos;sort.SelectionAscending&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;rough2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sort{rough2.java[rough2" matchStrategy="1" name="SelectionAscending" qualified="false" references="true" similarDeclarations="false" stamp="1502790416430" textual="false" version="1.0"/>
+</session>

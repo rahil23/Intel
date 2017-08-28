@@ -10,7 +10,7 @@ package Grouping;
 	import org.testng.annotations.Test;	
 
 	public class TC_Class1 {	
-	    public static final WebDriver webDriver = new FirefoxDriver();;	
+	    public static final WebDriver webDriver = new FirefoxDriver();
 
 	    String launchPageHeading = "//h3[text()='Guru99 Bank']";	
 	    final String userName_element = "//input[@name='uid']", password_element = "//input[@name='password']",	

@@ -1,0 +1,49 @@
+package Array;
+
+import java.util.Scanner;
+
+public class NPrimeNumber 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number");
+	int n = sc.nextInt();
+	//boolean flag = true;
+
+	for (int i = 2; i < n; i++) 
+	{
+		
+		isPrime(i);
+	}
+		
+		
+		
+	}
+	
+	public static void isPrime(int n)
+	{
+		boolean flag = false;
+		for (int j = 2; j < n-1; j++) 
+		{
+			
+			if(n%j!=0)
+			{
+							}
+			else
+			{
+				System.out.println(n+" No is not prime");
+				flag=true;
+				break;
+			}
+			
+		}
+		if(!flag)
+		{
+			System.out.println(n);
+		}
+	}
+
+}

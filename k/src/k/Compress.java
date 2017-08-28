@@ -8,15 +8,19 @@ public class Compress {
 		// String str = "aaabbccd";
 		// Output Should be a3b2c2d1
 
-	public void compressString(String str) {
+	public void compressString(String str) 
+	{
 
 		HashMap hm = new HashMap();
 
-		for (int j = 0; j < str.length(); j++) {
+		for (int j = 0; j < str.length(); j++) 
+		{
 			char temp = str.charAt(j);
 			int count = 0;
-			for (int i = 0; i < str.length(); i++) {
-				if (str.charAt(i) == temp) {
+			for (int i = 0; i < str.length(); i++) 
+			{
+				if (str.charAt(i) == temp) 
+				{
 					count++;
 				}
 

@@ -1,29 +1,24 @@
 package Rough;
 
-import java.util.Scanner;
+public class Rough2 {
 
-public class rough2 {
 	
-	
-	int fibbo()
-	{
-		
-	}
 	public static void main(String[] args) {
-		
-	Scanner obj = new Scanner(System.in);
-	System.out.println("Enter the Value");
-	int n=obj.nextInt();
-	
-	int fact=1;
-	
-	for (int i = 1; i <= n; i++) {
-		fact=fact*i;
-		
-		
+String a = "abcd";
+String b = "dcnnncd";
+char ch[] = a.toCharArray();
+char ch2[] = b.toCharArray();
+
+for(int i=0;i<ch.length;i++)
+{
+	for(int j=0;j<ch2.length;j++)
+	{
+		if(ch[i]==ch2[j])
+		{
+			System.out.println(ch[i]);
+		}
 	}
-	System.out.println(fact);
-
 }
 
-}
+	
+}}

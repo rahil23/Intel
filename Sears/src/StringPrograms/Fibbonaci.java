@@ -1,5 +1,7 @@
 package StringPrograms;
 
+import java.util.Scanner;
+
 public class Fibbonaci {
 	public static void main(String[] args) {
 		int s1 = 0;
@@ -14,4 +16,37 @@ public class Fibbonaci {
 		
 	}
 
-}
+
+	
+/*	public static void main(String[] args) {
+		int a=0;
+		int b=1;
+		int c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the nmber");
+		int res = sc.nextInt();
+		for (int i = 0; i < res; i++) {
+			if(i==0)
+			{
+				System.out.println(a);
+			}
+			
+			if(i==1)
+			{
+				System.out.println(b);
+			}
+			c=a+b;
+			System.out.println(c);
+			a=b;
+			b=c;
+			
+		}*/
+		
+		
+	}
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,16 @@
+
+
+package sort;
+
+public class Simplesorting {
+
+	public static void main(String[] args) {
+		int a[] = {0,1,0,1,1,0,0,1,0,0};
+		
+		int m[]= new int[a.length];
+		for (int i = 0; i < a.length; i++) {
+			int j = a[i];
+			
+		}
+	}
+}

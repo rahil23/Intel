@@ -13,6 +13,13 @@ package StringPrograms;
 	   return 1;
 	  else
 	   return fibo(n-1)+fibo(n-2);
+	  
+	  //fibo(4)+fibo(3)
+	  //fibo(3)+fibo(2)+fibo(2)+fibo(1)
+	  //fibo(2)+fibo(1)+fibo(1)+fibo(0)+fibo(1)+fibo(0)+1
+	  //fibo(1)+fibo(0)+1+1+0+1+0+1
+	  //1+0+5
+	  
 	 }
 	}
 	public class FibboRecursion

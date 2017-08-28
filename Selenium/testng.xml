@@ -8,7 +8,7 @@
         		</run>	
        		</groups>	
 			<classes>	
-					<class name="com.group.guru99.TC_Class1" />	
+					<class name="Grouping.TC_Class1" />	
            	</classes>	
 		</test>	
   </suite>	

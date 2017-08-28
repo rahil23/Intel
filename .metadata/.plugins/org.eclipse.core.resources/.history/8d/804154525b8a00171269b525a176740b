@@ -1,0 +1,15 @@
+package abstractInterface;
+
+ class child
+{
+	public static void main(String[] args) {
+		System.out.println("child class");
+	}
+}
+
+public class staticOverride {
+	public static void main(String[] args) {
+		System.out.println("main Class");
+	}
+
+}

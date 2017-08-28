@@ -1,0 +1,8 @@
+package abstractInterface;
+
+public class staticOverride {
+	public static void main(String[] args) {
+		System.out.println("main Class");
+	}
+
+}

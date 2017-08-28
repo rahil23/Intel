@@ -1,9 +1,0 @@
-<suite name = "methodlevelDataprovider">
-<test name = "methodlevelTestName">
-<classes>
-<class name = "DataProvider.MethodlevelDataProvider"
-</classes>
-</test>
-
-
-</suite>
