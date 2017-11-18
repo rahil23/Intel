@@ -1,0 +1,12 @@
+package BatlaList;
+
+public class Linklist {
+
+	Node head;
+	
+	void add(int data)
+	{
+		
+	}
+	
+}

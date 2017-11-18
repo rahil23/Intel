@@ -67,7 +67,7 @@ public class AllFunction {
 	//	System.out.println(str.valueOf())
 		
 
-		
+		//System.out.println(str1.valueOf(b));
 		
 		
 		

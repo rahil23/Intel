@@ -1,0 +1,34 @@
+package LinkedList;
+
+public class Link {
+
+	String bookName;
+	
+		int millionSold;
+		public Link next;
+		
+public Link(String bookName,int millionSold) {
+	// TODO Auto-generated constructor stub
+	
+	this.bookName=bookName;
+	this.millionSold = millionSold;
+}
+
+
+public void display()
+{
+	System.out.println(bookName+ " : "+ millionSold + ",000,000");
+}
+
+public String toString()
+{
+	return bookName;
+}
+
+		
+	}
+
+class SampleLinkedList
+{
+	
+}

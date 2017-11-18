@@ -1,0 +1,13 @@
+
+public class fibbo {
+
+	public static void main(String[] args) {
+		String s = "aaabcbbccdacd";
+		char ch[] = s.toCharArray();
+		
+		
+		
+		
+		
+	}
+}

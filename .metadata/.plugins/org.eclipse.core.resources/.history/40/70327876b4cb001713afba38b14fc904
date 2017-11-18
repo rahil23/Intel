@@ -1,0 +1,23 @@
+package BatlaList;
+
+public class Linklist {
+
+	Node head;
+	
+	void add(int data)
+	{
+		Node node = new Node();
+		node.setData(data);
+		
+		if(head==null)
+		{
+			head=node;  
+		}
+		else
+		{
+			
+		}
+	
+	}
+	
+}

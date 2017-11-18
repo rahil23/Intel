@@ -1,7 +1,7 @@
 
 public class Palindrome {
 public static void main(String[] args) {
-	String s="karakr";
+	String s="madam";
 	int p = (s.length()-1);
 	boolean flag= true;
 	System.out.println(p/2);

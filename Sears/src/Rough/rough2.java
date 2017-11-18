@@ -1,24 +1,35 @@
 package Rough;
 
+import java.util.HashMap;
+
 public class Rough2 {
 
-	
 	public static void main(String[] args) {
-String a = "abcd";
-String b = "dcnnncd";
-char ch[] = a.toCharArray();
-char ch2[] = b.toCharArray();
 
-for(int i=0;i<ch.length;i++)
-{
-	for(int j=0;j<ch2.length;j++)
-	{
-		if(ch[i]==ch2[j])
-		{
-			System.out.println(ch[i]);
+		HashMap map = new HashMap<>();
+		String s = "abaacbbadadb";
+		for (int i = 0; i < s.length(); i++) {
+
+			int count = 0;
+			char temp = s.charAt(i);
+			if (map.containsKey(temp)) {
+				System.out.println("Already calculated "+temp);
+			} else {
+				System.out.println(" calculating "+temp);
+				
+				for (int j = 0; j < s.length(); j++) {
+					if (temp == s.charAt(j)) {
+						count++;
+
+					}
+
+				}
+				map.put(temp, count);
+				
+			}
+		
 		}
+		System.out.println(map);
+
 	}
 }
-
-	
-}}

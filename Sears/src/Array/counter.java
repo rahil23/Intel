@@ -12,7 +12,7 @@ public class counter {
 	public static void main(String[] args) {
 
 		Integer[] a={10,34,56,78,1,2,3,4,5,1,2,3,4,5,6,7,8,9,0};
-		nthLargestNo(a, 14);
+		nthLargestNo(a, 13);
 	}
 
 	public static void nthEvenNo(int n) {

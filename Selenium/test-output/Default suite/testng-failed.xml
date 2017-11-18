@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="DynamicTable.AllTableRowCol">
+      <class name="SSLCertificate.GmailUnread">
         <methods>
-          <include name="getAllColRows"/>
+          <include name="deleteUnread"/>
         </methods>
-      </class> <!-- DynamicTable.AllTableRowCol -->
+      </class> <!-- SSLCertificate.GmailUnread -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

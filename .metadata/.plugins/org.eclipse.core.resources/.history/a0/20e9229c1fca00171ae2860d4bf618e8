@@ -1,0 +1,20 @@
+package Stack;
+
+public class SampleStack {
+	
+	String StackArray[];
+	int stackSize;
+	int topOfStack=-1;
+	
+	public SampleStack(int size) {
+		// TODO Auto-generated constructor stub
+		stackSize= size;
+	}
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

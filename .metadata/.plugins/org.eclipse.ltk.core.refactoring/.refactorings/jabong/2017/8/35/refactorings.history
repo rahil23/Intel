@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;swap2num.java&apos; to &apos;Sears/src/String&apos;&#x0D;&#x0A;- Original project: &apos;jabong&apos;&#x0D;&#x0A;- Destination element: &apos;Sears/src/String&apos;&#x0D;&#x0A;- Original element: &apos;jabong.swap2num.java&apos;" description="Copy compilation unit" destination="=Sears/src&lt;String" element1="/src&lt;jabong{swap2num.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1503985640830" units="1" version="1.0"/>
+</session>

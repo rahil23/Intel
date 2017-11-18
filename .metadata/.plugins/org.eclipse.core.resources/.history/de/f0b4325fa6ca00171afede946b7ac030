@@ -1,0 +1,32 @@
+package LinkedList;
+
+public class SampleLinkedList {
+
+	String bookName;
+	
+		int millionSold;
+		Link next;
+		
+public SampleLinkedList(String bookName,int millionSold) {
+	// TODO Auto-generated constructor stub
+	
+	this.bookName=bookName;
+	this.millionSold = millionSold;
+}
+
+
+public void display()
+{
+	System.out.println(bookName+ " : "+ millionSold + ",000,000");
+}
+
+public String toString()
+{
+	return bookName;
+}
+
+		public static void main(String[] args) {
+			
+		}
+	}
+

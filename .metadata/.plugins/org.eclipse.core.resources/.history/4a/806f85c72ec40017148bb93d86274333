@@ -1,0 +1,31 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Rough 
+{
+	
+	public static void main(String[] args) 
+	{
+		
+String a  = "karsak";
+
+char ch[] = a.toCharArray();
+for(int i=0;i<ch.length-1;i++)
+{
+	if(ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u')
+	{
+	ch[i]='$';	
+	}
+}
+		System.out.println(a);
+			
+		}
+	}
+
+	
+		
+		
+		
+		
+		
+		

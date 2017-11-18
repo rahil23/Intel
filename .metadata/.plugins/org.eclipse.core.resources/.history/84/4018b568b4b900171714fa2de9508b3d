@@ -1,0 +1,88 @@
+package rough;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AfterHoliday {
+	
+	
+	public static void main(String[] args) {
+	
+		//int a[]={10,30,24,21,43,22};
+		int temp=0;
+		
+		//----------------------------------------------------------------
+		/*for (int i = 0; i < a.length-1; i++) {
+			for (int j = 0; j < a.length-1; j++) {
+				
+			
+			if(a[j]>a[j+1])
+			{
+				temp=a[j];
+				a[j]=a[j+1];
+				a[j+1]=temp;
+			}
+			
+		}
+			
+				
+			}
+		for (int j = 0; j < a.length-1; j++) {
+			System.out.println(a[j]);
+		}*/
+	
+	//-------------------------------------------------------------------------
+		
+		/*int high=a[0];
+		int sechigh=a[0];
+		int thirdhigh = a[0];
+		
+		for (int i = 0; i < a.length; i++) {
+			if(a[i]>high)
+			{
+				thirdhigh=sechigh;
+				sechigh=high;
+				high=a[i];
+		    }
+			else if(a[i]>sechigh)
+			{
+				thirdhigh=sechigh;
+				sechigh=a[i];
+				
+			}
+			else if(a[i]>thirdhigh)
+			{
+				thirdhigh=a[i];
+			}
+		}
+	
+		System.out.println(high+ " "+sechigh+" "+thirdhigh);
+	}*/
+	//--------------------------------------------------------------------
+	
+int ab[]={0,1,1,0,1,0,0,0,0,0,1,1};
+int start = 0;
+int lastele=ab.length-1;
+ArrayList c = new ArrayList();
+
+int newArr[] = new int[ab.length];
+int count=0;
+for (int i = 0; i <= ab.length-1; i++) 
+{
+	if(ab[i]==0)
+	{
+		newArr[i]=0;
+		start++;
+	}
+	if(ab[i]==1)
+	{
+		newArr[i]=1;
+		lastele--;
+	}
+	
+}
+System.out.println(newArr);
+	}
+
+	
+}

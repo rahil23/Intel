@@ -29,7 +29,7 @@ public class CompressString {
 			// TODO Auto-generated method stub
 
 			CompressString comp = new CompressString();
-			String str = "abbaaabbccc";
+			String str = "aaabbcccaaaaa";
 			comp.compressString(str);
 
 		}

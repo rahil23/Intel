@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="item" key="selection"/>
+		<item value="Neighbor" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Neighbour"/>
+			<item value="N"/>
+			<item value="obj"/>
 			<item value="items"/>
 			<item value="RobotMovement"/>
 			<item value="limit"/>
@@ -15,6 +18,8 @@
 			<item value="combimations"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Neighbor"/>
+			<item value="theLinkedList"/>
 			<item value="item"/>
 			<item value="ProblemPackage"/>
 			<item value="highValue"/>

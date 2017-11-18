@@ -1,0 +1,100 @@
+package StringPrograms;
+
+public class ReverseOnlyWords {
+	/*public String reverse(String str) {
+
+		String inter = "";
+		String newstr = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			inter = inter + str.charAt(i);
+		}
+
+		System.out.println(inter);
+		System.out.println("---------------");
+
+		String[] arr = inter.split(" ");
+		for (int i = 0; i < arr.length; i++) {
+			if (i % 2 == 0) {
+				String word = arr[i];
+				for (int j = word.length() - 1; j >= 0; j--) {
+					newstr += word.charAt(j);
+				}
+				newstr += " ";
+			} else {
+				newstr += arr[i] + " ";
+			}
+		}
+		System.out.println(newstr);
+		System.out.println("---------------");
+		return newstr;
+	}
+
+	public static void main(String[] args) {
+		String in = "I am a software programmer";
+		r z = new r();
+		z.reverse(in);
+	}
+
+
+*/
+	
+	
+	/*public static void main(String[] args) {
+		String a = "I am a software programmer";
+		int len = a.length();
+		String s = "";
+		for (int i = len-1; i>=0; i--) {
+			s=s+a.charAt(i);
+			
+		}
+		System.out.println(s);
+	}*/
+	
+	
+	
+	public static void main(String[] args) {
+		String a = "You are the love charger";
+		int len = a.length();
+	String[] c=	a.split(" ");
+	for (int i = 0; i < c.length; i++) {
+		//System.out.println(c[i]);
+	}
+	
+	String m = "";
+	for (int is = 0; i < c[i].length(); i++) {
+		for (int j = c[i].length(); j >= 0; j--) {
+			m=m+c[j].charAt(j);
+			System.out.println(m);
+			
+		}
+	
+	}
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,19 @@
+package BatlaList;
+
+public class Linklist {
+
+	Node head;
+	
+	public Linklist() {
+		Node dummyNode = new Node();
+		//node.setNext(null);
+		head=dummyNode;
+	}
+	
+	
+	void add(int data)
+	{
+	
+	}
+	
+} 

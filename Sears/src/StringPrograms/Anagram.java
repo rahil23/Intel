@@ -8,7 +8,7 @@ public class Anagram {
 public static void main(String[] args) {
 	
 	String s = "rahil";
-	String s2= "lirah";
+	String s2= "lirahg";
 	char c1[] = s.replaceAll("[//s]","").toLowerCase().toCharArray();
 	char c2[] = s2.replaceAll("[//s]","").toLowerCase().toCharArray();
 	Arrays.sort(c1);

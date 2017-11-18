@@ -1,0 +1,13 @@
+package LinkedList;
+
+public class SampleLinkedList {
+
+	String Book;
+	
+		int millionSold;
+		SampleLinkedList next;
+		
+		
+		
+	}
+}

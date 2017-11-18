@@ -3,7 +3,7 @@ package sort;
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		int a[] = {120,2,13,22,21,4,1,5}; 
+		int a[] = {120,2,130,22,21,4,1,5}; 
 		int len = a.length;
 		int temp=0;
 		

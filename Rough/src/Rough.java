@@ -1,29 +1,38 @@
 import java.util.HashMap;
+import java.util.Map;
 
-public class Rough {
-	
-	public static void main(String[] args) {
-		
-int a[] ={12,43,23,44,11,5};
-int len = a.length;
-int temp=0;
-for (int i = 0; i < a.length; i++) 
+public class Rough 
 {
-	for (int j = 0; j < a.length; j++) 
+	
+	public static void main(String[] args) 
 	{
 		
-	if(a[j]>a[j+1])
-      {
-	temp = a[j];
-	a[j] = a[j+1];
-	a[j+1]=temp;
-      }
-     }
+int ar[]={1,1,1,1};
+Map  m = new HashMap();
+int count=0;
+int len = ar.length-1;
+for (int i = 0; i <=len; i++) {
 	
-	
-	
-   }
-}
-}
+	for (int j = i+1; j <=len; j++) {
+
+		if(ar[i]+ar[j]==2)
+		{
+			count++;
+			System.out.println(i+ " "+j);
+		}
+	}
 
 	
+}
+System.out.println(count);	
+
+		}
+	}
+
+	
+		
+		
+		
+		
+		
+		

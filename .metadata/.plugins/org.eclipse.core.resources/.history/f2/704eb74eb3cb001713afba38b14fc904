@@ -1,0 +1,11 @@
+package BatlaList;
+
+public class LinklistTest {
+
+	
+	public static void main(String[] args) {
+		
+		Linklist l = new Linklist();
+	}
+	
+}

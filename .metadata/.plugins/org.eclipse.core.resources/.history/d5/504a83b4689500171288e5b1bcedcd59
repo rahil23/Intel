@@ -1,0 +1,32 @@
+package String;
+
+public class FindSubString {
+
+
+	
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			String str = "abbbabggabab";
+			String Substr = "ab";
+			
+			
+			char ch[] = str.toCharArray();
+		
+			for (int i = 0; i < ch.length-1; i++) {
+		System.out.println(ch[i]+""+ch[i+1]);
+		if((ch[i]+""+ch[i+1]).contains(Substr))
+		{
+			System.out.println(i+""+i+1);
+		}
+				
+			}
+			
+
+
+			
+			
+		}
+	}
+
+

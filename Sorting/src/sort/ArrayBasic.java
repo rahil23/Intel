@@ -1,4 +1,4 @@
-package sort;
+xpackage sort;
 
 public class ArrayBasic {
 	public static void main(String[] args) {

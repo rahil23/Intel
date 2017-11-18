@@ -1,0 +1,39 @@
+package String;
+
+public class FindSubString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "abbbabggabab";
+		String Substr = "bb";
+		int index,count=0;
+		/*
+			index = str.indexOf(Substr);
+			//System.out.println(index);
+			
+			if (index < 0) {
+				System.out.println("String Not found");
+			}
+
+			while (index >= 0) {
+				System.out.print("Start :"+index+" ");
+				System.out.print("End :"+ (index + Substr.length()));
+				System.out.println(" ");
+				index = str.indexOf(Substr, index + Substr.length());
+				System.out.println(index);
+				count++;
+			}
+*/	
+		String arr[]=str.split("ab");
+		
+		System.out.println(arr.length-1);
+				
+		System.out.println("Number of Repetitions :"+count);
+	}
+
+	
+
+		
+	}
+
+

@@ -18,7 +18,23 @@ public class ReverseWords {
 				k = i - 1;
 			}
 		}
+		
+		//o/p : ashka sh ashja ashajshaj sasak bbsbs Limited Private India Mobile
+		//-------------------------------------------------------2nd approach
+	
+		/*String str = "Mobile India Private Limited bbsbs sasak ashajshaj ashja sh ashka";
+		char ch[] = str.toCharArray();
+		String s = "";
+		for (int i = ch.length-1; i >=0; i--) {
+			s=s+str.charAt(i);
+			
+		}
+		System.out.println(s);
+		
+		//o/p: akhsa hs ajhsa jahsjahsa kasas sbsbb detimiL etavirP aidnI eliboM
+		*/
 	}
+	
 
 
 }

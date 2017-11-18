@@ -1,0 +1,25 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Rough 
+{
+	
+	public static void main(String[] args) 
+	{
+		
+String a  = "karak";
+for (int i = 0; i < a.length-1; i++) {
+	
+}
+		
+	}
+		
+	}
+
+	
+		
+		
+		
+		
+		
+		
