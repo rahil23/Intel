@@ -8,7 +8,7 @@ public class Rough
 	{
 		
 int ar[]={1,1,1,1};
-Map  m = new HashMap();
+//Map  m = new HashMap();
 int count=0;
 int len = ar.length-1;
 for (int i = 0; i <=len; i++) {

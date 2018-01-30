@@ -1,0 +1,18 @@
+<StudentData>
+<Student>
+  <Name>Rahil</Name>
+  <Age>25</Age>
+  <Score>33</Score>
+  <rollno>123</rollno>
+</Student>
+
+
+<Student>
+  <Name>karan</Name>
+  <Age>24</Age>
+  <Score>39</Score>
+  <rollno>123</rollno>
+</Student>
+
+
+</StudentData>

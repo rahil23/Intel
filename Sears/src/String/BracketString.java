@@ -1,0 +1,45 @@
+package String;
+
+public class BracketString 
+{
+	 private static boolean isMatchingPair(char character1, char character2)
+	 {
+	       if (character1 == '(' && character2 == ')')
+	         return true;
+	       else if (character1 == '{' && character2 == '}')
+	         return true;
+	       else if (character1 == '[' && character2 == ']')
+	         return true;
+	       else
+	         return false;
+	    }
+	 
+	 public static boolean verifyParanthesisBalance(String input) 
+	 {
+	  boolean returnVal = true;
+	  char [] exp =  input.toCharArray();
+	  int i=0,j=exp.length-1;
+	  while(i<=j) 
+	  {
+	    if (exp[i] == '{' || exp[i] == '(' || exp[i] == '[') 
+	    {
+	    returnVal &= isMatchingPair(exp[i],exp[j]);
+	    }
+	    else if (exp[i] == '}' || exp[i] == ')' || exp[i] == ']') 
+	    {
+	     returnVal &= false;
+	    }
+	    System.out.println("i = "+i+" --------------------------- "+" j = "+ j+" : "+exp[j]);
+	   i++;
+	   j--;
+	  }
+	  return returnVal;
+	  
+	 } 
+	 
+	 public static void main(String[] args) {
+		String s = "((}}";
+		//BracketString o = new BracketString();
+		System.out.println(verifyParanthesisBalance(s));
+	}
+	}

@@ -1,0 +1,42 @@
+package Basics;
+
+public class basicOperation {
+	
+	int front = 0;
+	int rear  = 0;
+	int queue[];
+	public basicOperation() {
+		// TODO Auto-generated constructor stub
+		
+		queue = new int[7];
+	}
+	
+	void insert()
+	{
+		if()
+		{
+			System.out.println("Queue is full");
+		}
+		else
+		{
+			int ele;
+			
+		}
+	}
+	
+	void delete()
+	{
+		if(front == rear)
+		{
+			System.out.println("queue is empty");
+		}
+	}
+
+	void traverse()
+	{
+		if(front == rear)
+		{
+			System.out.println("queue is empty");
+		}
+	}
+}

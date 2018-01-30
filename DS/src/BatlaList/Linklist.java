@@ -94,7 +94,7 @@ public class Linklist {
 		while(temp.next!=null)
 		{
 			
-			temp= temp.next;
+		temp= temp.next;
 			System.out.println(temp.data);
 		}
 		

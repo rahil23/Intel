@@ -1,0 +1,22 @@
+
+public class switchd {
+	public static void main(String[] args) {
+		
+		
+		
+		String s ="Sahil";
+		
+		switch(s)
+		{
+		case "Sahil": 
+				continue;
+			s
+		case "Sa": 
+			break;
+			
+			default :
+				break;
+		}
+	}
+
+}

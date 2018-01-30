@@ -1,0 +1,29 @@
+package r;
+
+public class difference {
+
+
+
+
+	public static void main(String[] args) {
+		  int arr[] = {110,111,115,116,119};
+		  for (int i = 1; i < arr.length; i++) {
+		
+			  if(arr[i-1]+1==arr[i]){
+				  
+			  }else
+			  {
+				String format=  "("+arr[i-1]+","+arr[i]+"),";
+				  System.out.print(removeLastChar(format));
+			  }
+			
+		}
+	}
+	public static String  removeLastChar(String s) {
+	    if (s == null || s.length() == 0) {
+	        return s;
+	    }
+	    return s.substring(0, s.length()-1);
+	}
+	}
+}

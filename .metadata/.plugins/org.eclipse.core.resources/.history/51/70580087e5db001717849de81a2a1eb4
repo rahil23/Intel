@@ -1,0 +1,27 @@
+package Basics;
+
+public class CircularQueue {
+	int rear=-1;
+	int front = -1;
+	int cqueue[];
+	int capacity=6;
+	
+	public CircularQueue() {
+		cqueue=new int[capacity];
+	}
+
+	void insert(int element)
+	{
+		if(rear==capacity-1)
+		{
+			System.out.println("Queue is full");
+		}
+		if(rear)
+		else
+		{
+			
+			cqueue[rear]=element;
+			rear++;
+		}
+	}
+}

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SSLCertificate.GmailUnread">
+      <class name="TestNG.timeOut">
         <methods>
-          <include name="deleteUnread"/>
+          <include name="openURL"/>
         </methods>
-      </class> <!-- SSLCertificate.GmailUnread -->
+      </class> <!-- TestNG.timeOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
